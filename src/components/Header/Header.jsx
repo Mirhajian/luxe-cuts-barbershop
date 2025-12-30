@@ -59,6 +59,9 @@ function Header() {
                         <li>
                             <Link to="/#contact" onClick={(e) => handleNavClick(e, 'contact')}>تماس</Link>
                         </li>
+                        <li>
+                            <Link to="/login">مدیریت</Link>
+                        </li>
                     </ul>
                 </nav>
 
